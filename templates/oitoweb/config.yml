@@ -1,5 +1,9 @@
+---
 name: Oito Web
 description: |
   Demo application for Oito
 version: 1.0
 category: OI Internet Web
+maintainer: Wilton Silva
+license: oiinternet
+projectURL: https://github.com/wiltonpaulo/myrancher
