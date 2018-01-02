@@ -1,14 +1,8 @@
-version: '2'
 catalog:
   name: Oito Web Apps
   version: v1.0.0
   minimum_rancher_version: v1.5.0-rc1
-  questions:
-    - variable: PARTICIPANTS
-      label: "Number of participant Stacks Needed"
-      required: true
-      default: 1
-      type: int    
+
 services:
   nginxlb:
     scale: 3
