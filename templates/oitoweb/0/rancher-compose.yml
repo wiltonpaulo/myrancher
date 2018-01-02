@@ -1,3 +1,17 @@
+.catalog:
+  name: Training Class
+  version: v0.0.1
+  minimum_rancher_version: v1.5.0-rc1
+  questions:
+    - variable: PARTICIPANTS
+      label: "Number of participant Stacks Needed"
+      required: true
+      default: 1
+      type: int
+    - variable: DOMAIN_SUFFIX
+      label: "Suffix for Domain Names"
+      required: true
+      type: string
 version: '2'
 services:
   nginxlb:
